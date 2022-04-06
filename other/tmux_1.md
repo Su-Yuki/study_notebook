@@ -52,5 +52,5 @@ $ brew install font-hackgen
 $ brew install font-hackgen-nerd
 ```
 ## 参照
-- 「白源」の参照元
+- 「白源」の参照元  
 https://qiita.com/tawara_/items/374f3ca0a386fab8b305
