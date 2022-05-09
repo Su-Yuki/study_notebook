@@ -28,4 +28,5 @@ DELETE|Delete。レコードの削除|
 ## 設計例
 | |エンドポイント|Request|form validation|Error|Response|DB|Note|
 ----|----|----|----|----|----|----|----|
-例|api/example|-|-|-|成功時{message:string  data:{}}  失敗時{message:string}|table| |
+例|api/example|-|-|-|成功時  {message:string  data:{}  }  失敗時  {  message:string  }|table| |
+
