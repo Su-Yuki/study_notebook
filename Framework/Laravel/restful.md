@@ -24,3 +24,8 @@ DELETE|Delete。レコードの削除|
 ----|----|
 /コントローラ/create|create（新規作成フォーム）|
 /コントローラ/番号/edit|edit(番号=ID、更新のフォーム)|
+
+## 設計例
+| |エンドポイント|Request|form validation|Error|Response|DB|Note|
+----|----|----|----|----|----|----|----|
+例|api/example|-|-|-|成功時{message:string  data:{}}  失敗時{message:string}|table| |
