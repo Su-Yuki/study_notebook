@@ -11,6 +11,8 @@ PUT|Update。レコードの更新|
 DELETE|Delete。レコードの削除|
 
 ## RESTfullに必要なもの
+|||
+----|----|
 /コントローラ|index|
 /コントローラ|store(POST送信)|
 /コントローラ/番号|show（番号=ID）|
