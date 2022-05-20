@@ -1,0 +1,6 @@
+- [公式](https://www.typescriptlang.org/)
+- [TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/https://typescript-jp.gitbook.io/deep-dive/)
+- []()
+- []()
+- []()
+- []()
