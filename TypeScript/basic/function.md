@@ -68,6 +68,43 @@ try {
 }
 ```
 
+#### エラーと例外
+|||
+----|----|
+try{...}|例外が発生するかもしれない処理|
+catch(e){...}|例外が発生した時の処理|
+finally{...}|例外の有無に関係なく常に構文を抜ける際に実行する処理|
+
+
+エラーを返す例
+```
+const f = (n: number): [number, Error?] => {
+  if(n < 0) {
+    return [n, Error("負の値です")]
+  }
+
+  let total = 0
+  for (let i = 1; i<=n; i++)
+  total += i
+
+  return [total]
+}
+
+let [res1, err1] = f(100)
+if(err1 == undefined){
+  console.log(res1)
+} else {
+  console.log(err1) 
+}
+
+let [res2, err2] = f(-100)
+if(err2 == undefined){
+  console.log(res2)
+} else {
+  console.log(err2) 
+}
+```
+
 #### ジェネリクス
 ```
 function 関数<T>( 変数:T ): T
@@ -141,3 +178,4 @@ f(1000, 100).then(cb)
 
 console.log("do something...")
 ```
+
